@@ -53,3 +53,7 @@ while(nombre!="salir"){
 }
 
 
+/* Ejercicio para practicar con el Gaspi piola ;) */
+
+
+

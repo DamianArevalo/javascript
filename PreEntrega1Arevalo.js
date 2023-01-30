@@ -16,3 +16,17 @@ for (i=0; i<=2; i+1) {
         }
 }
 
+let dinero=prompt("Ingrese su cantidad de dinero");
+let cuotas=prompt("Ingrese la cantidad de cuotas")
+
+function cotizador (nombre, dinero, cuotas) {
+    let interes = dinero*cuotas*0.2
+    alert("Hola " + nombre + " el valor final es " + interes)
+}
+
+cotizador (nombreUser, dinero, cuotas);
+
+
+
+// let interes = prompt("Ingrese su cantidad de dinero")*prompt("Ingrese su cantidad de cuotas")*0.2
+// alert("Hola " + nombreUser + " el valor final es " + interes)
