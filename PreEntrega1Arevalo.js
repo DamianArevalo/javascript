@@ -19,9 +19,9 @@ for (i=0; i<=2; i+1) {
 let dinero=prompt("Ingrese su cantidad de dinero");
 let cuotas=prompt("Ingrese la cantidad de cuotas")
 
-function cotizador (nombre, dinero, cuotas) {
+function cotizador (nombreUser, dinero, cuotas) {
     let interes = dinero*cuotas*0.2
-    alert("Hola " + nombre + " el valor final es " + interes)
+    alert("Hola " + nombreUser + " " + apellidoUser + " el valor final es " + interes)
 }
 
 cotizador (nombreUser, dinero, cuotas);
