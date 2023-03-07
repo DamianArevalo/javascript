@@ -1,6 +1,4 @@
-
-
-    /* Declaracion de variables */
+  /* Declaracion de variables */
 
     let productoSeleccionado;
     let cantidadProducto;
@@ -49,7 +47,7 @@
         listaProductos.map(producto => {
             let liElement = document.createElement("li");
             ulElement.appendChild(liElement);
-            liElement.innerText = producto.nombre
+            liElement.innerText = producto.nombre;
         });
     }
 
